@@ -1,7 +1,7 @@
 # Wellbeing Adviser
 
 
-This application will be build natively in IOS initially following some tutorials online as a framework then built into a fully functional application at the end.
+This application will be build natively in IOS initially following some tutorials online as a framework then build it into a fully functional application at the end.
 
 
 ## Purpose of This
