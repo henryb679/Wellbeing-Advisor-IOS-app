@@ -4,9 +4,9 @@
 This application will be built natively in IOS initially following some tutorials online as a framework then build it into a fully functional application at the end.
 
 
-## Purpose of This
+## Purpose
 
-As I have recently got a Huawei smartwatch and found the application "Huawei health" to lack functionality, I hope to see what information is collected from the respective sensors and explore what sort of data values I can get for personal benefit.
+As I have recently got a Huawei smartwatch and have found the application "Huawei health" to lack functionality, I hope to see what information is collected from the respective sensors and explore what sort of data values I can get for personal benefit.
 
 Another plus of this is it gives me the ability to develop my first native IOS app.
 
