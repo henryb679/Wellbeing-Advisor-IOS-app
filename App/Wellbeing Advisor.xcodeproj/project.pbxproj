@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C30E96020F2B9B100D846E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C30E95F20F2B9B100D846E7 /* AppDelegate.swift */; };
+		4C30E96220F2B9B100D846E7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C30E96120F2B9B100D846E7 /* HomeViewController.swift */; };
+		4C30E96520F2B9B100D846E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C30E96320F2B9B100D846E7 /* Main.storyboard */; };
+		4C30E96720F2B9B100D846E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C30E96620F2B9B100D846E7 /* Assets.xcassets */; };
+		4C30E96A20F2B9B100D846E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C30E96820F2B9B100D846E7 /* LaunchScreen.storyboard */; };
+		4C30E97B20F2BCBC00D846E7 /* HomeTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C30E97920F2BCBC00D846E7 /* HomeTile.swift */; };
+		4C30E97C20F2BCBC00D846E7 /* HomeTile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C30E97A20F2BCBC00D846E7 /* HomeTile.xib */; };
+		4C30E97F20F2C0D900D846E7 /* HomeTileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C30E97E20F2C0D900D846E7 /* HomeTileModel.swift */; };
+		F803AEAF226DCD3200C1D0C7 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F803AEAD226DCD3200C1D0C7 /* Model.xcdatamodeld */; };
+		F803AED0226DCF6D00C1D0C7 /* Hot_Again_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F803AECF226DCF6D00C1D0C7 /* Hot_Again_UITests.swift */; };
+		F803AEDE226DCF7A00C1D0C7 /* Hot_Again_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F803AEDD226DCF7A00C1D0C7 /* Hot_Again_Tests.swift */; };
+		F8C3C1D3226D899300CFEDD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3C1D2226D899300CFEDD6 /* ViewController.swift */; };
+		F8EED9DC2292A55600760A1B /* RecordAnEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EED9DB2292A55600760A1B /* RecordAnEvent.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F803AED2226DCF6D00C1D0C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C30E95420F2B9B100D846E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C30E95B20F2B9B100D846E7;
+			remoteInfo = "Hot Again!";
+		};
+		F803AEE0226DCF7A00C1D0C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C30E95420F2B9B100D846E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C30E95B20F2B9B100D846E7;
+			remoteInfo = "Hot Again!";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C30E95C20F2B9B100D846E7 /* Wellbeing Advisor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wellbeing Advisor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C30E95F20F2B9B100D846E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C30E96120F2B9B100D846E7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4C30E96420F2B9B100D846E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C30E96620F2B9B100D846E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C30E96920F2B9B100D846E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C30E96B20F2B9B100D846E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C30E97920F2BCBC00D846E7 /* HomeTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTile.swift; sourceTree = "<group>"; };
+		4C30E97A20F2BCBC00D846E7 /* HomeTile.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTile.xib; sourceTree = "<group>"; };
+		4C30E97E20F2C0D900D846E7 /* HomeTileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTileModel.swift; sourceTree = "<group>"; };
+		F803AEAE226DCD3200C1D0C7 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F803AECD226DCF6D00C1D0C7 /* Wellbeing AdvisorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wellbeing AdvisorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F803AECF226DCF6D00C1D0C7 /* Hot_Again_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_Again_UITests.swift; sourceTree = "<group>"; };
+		F803AED1226DCF6D00C1D0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F803AEDB226DCF7A00C1D0C7 /* Wellbeing AdvisorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wellbeing AdvisorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F803AEDD226DCF7A00C1D0C7 /* Hot_Again_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hot_Again_Tests.swift; sourceTree = "<group>"; };
+		F803AEDF226DCF7A00C1D0C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8C3C1D2226D899300CFEDD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8EED9DB2292A55600760A1B /* RecordAnEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAnEvent.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C30E95920F2B9B100D846E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F803AECA226DCF6D00C1D0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F803AED8226DCF7A00C1D0C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C30E95320F2B9B100D846E7 = {
+			isa = PBXGroup;
+			children = (
+				4C30E95E20F2B9B100D846E7 /* Wellbeing Advisor */,
+				4C30E95D20F2B9B100D846E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C30E95D20F2B9B100D846E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C30E95C20F2B9B100D846E7 /* Wellbeing Advisor.app */,
+				F803AECD226DCF6D00C1D0C7 /* Wellbeing AdvisorUITests.xctest */,
+				F803AEDB226DCF7A00C1D0C7 /* Wellbeing AdvisorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C30E95E20F2B9B100D846E7 /* Wellbeing Advisor */ = {
+			isa = PBXGroup;
+			children = (
+				F8EED9D82292A52000760A1B /* RecordAnEventModels */,
+				F803AEBE226DCE3E00C1D0C7 /* Tests */,
+				4C30E95F20F2B9B100D846E7 /* AppDelegate.swift */,
+				F8C3C1D2226D899300CFEDD6 /* ViewController.swift */,
+				4C30E97D20F2C0C500D846E7 /* HomePageModels */,
+				4C30E96320F2B9B100D846E7 /* Main.storyboard */,
+				4C30E96620F2B9B100D846E7 /* Assets.xcassets */,
+				4C30E96820F2B9B100D846E7 /* LaunchScreen.storyboard */,
+				F803AEAD226DCD3200C1D0C7 /* Model.xcdatamodeld */,
+				4C30E96B20F2B9B100D846E7 /* Info.plist */,
+			);
+			path = "Wellbeing Advisor";
+			sourceTree = "<group>";
+		};
+		4C30E97D20F2C0C500D846E7 /* HomePageModels */ = {
+			isa = PBXGroup;
+			children = (
+				4C30E96120F2B9B100D846E7 /* HomeViewController.swift */,
+				4C30E97920F2BCBC00D846E7 /* HomeTile.swift */,
+				4C30E97A20F2BCBC00D846E7 /* HomeTile.xib */,
+				4C30E97E20F2C0D900D846E7 /* HomeTileModel.swift */,
+			);
+			path = HomePageModels;
+			sourceTree = "<group>";
+		};
+		F803AEBE226DCE3E00C1D0C7 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F803AECE226DCF6D00C1D0C7 /* Hot Again!UITests */,
+				F803AEDC226DCF7A00C1D0C7 /* Hot Again!Tests */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		F803AECE226DCF6D00C1D0C7 /* Hot Again!UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F803AECF226DCF6D00C1D0C7 /* Hot_Again_UITests.swift */,
+				F803AED1226DCF6D00C1D0C7 /* Info.plist */,
+			);
+			path = "Hot Again!UITests";
+			sourceTree = "<group>";
+		};
+		F803AEDC226DCF7A00C1D0C7 /* Hot Again!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F803AEDD226DCF7A00C1D0C7 /* Hot_Again_Tests.swift */,
+				F803AEDF226DCF7A00C1D0C7 /* Info.plist */,
+			);
+			path = "Hot Again!Tests";
+			sourceTree = "<group>";
+		};
+		F8EED9D82292A52000760A1B /* RecordAnEventModels */ = {
+			isa = PBXGroup;
+			children = (
+				F8EED9DB2292A55600760A1B /* RecordAnEvent.swift */,
+			);
+			path = RecordAnEventModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C30E95B20F2B9B100D846E7 /* Wellbeing Advisor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C30E96E20F2B9B100D846E7 /* Build configuration list for PBXNativeTarget "Wellbeing Advisor" */;
+			buildPhases = (
+				4C30E95820F2B9B100D846E7 /* Sources */,
+				4C30E95920F2B9B100D846E7 /* Frameworks */,
+				4C30E95A20F2B9B100D846E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wellbeing Advisor";
+			productName = MemeIQ;
+			productReference = 4C30E95C20F2B9B100D846E7 /* Wellbeing Advisor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F803AECC226DCF6D00C1D0C7 /* Wellbeing AdvisorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F803AED4226DCF6D00C1D0C7 /* Build configuration list for PBXNativeTarget "Wellbeing AdvisorUITests" */;
+			buildPhases = (
+				F803AEC9226DCF6D00C1D0C7 /* Sources */,
+				F803AECA226DCF6D00C1D0C7 /* Frameworks */,
+				F803AECB226DCF6D00C1D0C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F803AED3226DCF6D00C1D0C7 /* PBXTargetDependency */,
+			);
+			name = "Wellbeing AdvisorUITests";
+			productName = "Hot Again!UITests";
+			productReference = F803AECD226DCF6D00C1D0C7 /* Wellbeing AdvisorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F803AEDA226DCF7A00C1D0C7 /* Wellbeing AdvisorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F803AEE2226DCF7A00C1D0C7 /* Build configuration list for PBXNativeTarget "Wellbeing AdvisorTests" */;
+			buildPhases = (
+				F803AED7226DCF7A00C1D0C7 /* Sources */,
+				F803AED8226DCF7A00C1D0C7 /* Frameworks */,
+				F803AED9226DCF7A00C1D0C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F803AEE1226DCF7A00C1D0C7 /* PBXTargetDependency */,
+			);
+			name = "Wellbeing AdvisorTests";
+			productName = "Hot Again!Tests";
+			productReference = F803AEDB226DCF7A00C1D0C7 /* Wellbeing AdvisorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C30E95420F2B9B100D846E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					eventName,
+				);
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					4C30E95B20F2B9B100D846E7 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					F803AECC226DCF6D00C1D0C7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4C30E95B20F2B9B100D846E7;
+					};
+					F803AEDA226DCF7A00C1D0C7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4C30E95B20F2B9B100D846E7;
+					};
+				};
+			};
+			buildConfigurationList = 4C30E95720F2B9B100D846E7 /* Build configuration list for PBXProject "Wellbeing Advisor" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C30E95320F2B9B100D846E7;
+			productRefGroup = 4C30E95D20F2B9B100D846E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C30E95B20F2B9B100D846E7 /* Wellbeing Advisor */,
+				F803AECC226DCF6D00C1D0C7 /* Wellbeing AdvisorUITests */,
+				F803AEDA226DCF7A00C1D0C7 /* Wellbeing AdvisorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C30E95A20F2B9B100D846E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C30E96A20F2B9B100D846E7 /* LaunchScreen.storyboard in Resources */,
+				4C30E97C20F2BCBC00D846E7 /* HomeTile.xib in Resources */,
+				4C30E96720F2B9B100D846E7 /* Assets.xcassets in Resources */,
+				4C30E96520F2B9B100D846E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F803AECB226DCF6D00C1D0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F803AED9226DCF7A00C1D0C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C30E95820F2B9B100D846E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8C3C1D3226D899300CFEDD6 /* ViewController.swift in Sources */,
+				4C30E97B20F2BCBC00D846E7 /* HomeTile.swift in Sources */,
+				4C30E97F20F2C0D900D846E7 /* HomeTileModel.swift in Sources */,
+				F8EED9DC2292A55600760A1B /* RecordAnEvent.swift in Sources */,
+				4C30E96220F2B9B100D846E7 /* HomeViewController.swift in Sources */,
+				4C30E96020F2B9B100D846E7 /* AppDelegate.swift in Sources */,
+				F803AEAF226DCD3200C1D0C7 /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F803AEC9226DCF6D00C1D0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F803AED0226DCF6D00C1D0C7 /* Hot_Again_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F803AED7226DCF7A00C1D0C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F803AEDE226DCF7A00C1D0C7 /* Hot_Again_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F803AED3226DCF6D00C1D0C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C30E95B20F2B9B100D846E7 /* Wellbeing Advisor */;
+			targetProxy = F803AED2226DCF6D00C1D0C7 /* PBXContainerItemProxy */;
+		};
+		F803AEE1226DCF7A00C1D0C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C30E95B20F2B9B100D846E7 /* Wellbeing Advisor */;
+			targetProxy = F803AEE0226DCF7A00C1D0C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C30E96320F2B9B100D846E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C30E96420F2B9B100D846E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C30E96820F2B9B100D846E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C30E96920F2B9B100D846E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C30E96C20F2B9B100D846E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C30E96D20F2B9B100D846E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C30E96F20F2B9B100D846E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPKSQ4S8M9;
+				INFOPLIST_FILE = "$(SRCROOT)/Wellbeing Advisor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WellbeingAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4C30E97020F2B9B100D846E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPKSQ4S8M9;
+				INFOPLIST_FILE = "$(SRCROOT)/Wellbeing Advisor/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = WellbeingAdvisor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F803AED5226DCF6D00C1D0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPKSQ4S8M9;
+				INFOPLIST_FILE = "Hot Again!UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CoHENRY.Hot-Again-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hot Again!";
+			};
+			name = Debug;
+		};
+		F803AED6226DCF6D00C1D0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPKSQ4S8M9;
+				INFOPLIST_FILE = "Hot Again!UITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CoHENRY.Hot-Again-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hot Again!";
+			};
+			name = Release;
+		};
+		F803AEE3226DCF7A00C1D0C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPKSQ4S8M9;
+				INFOPLIST_FILE = "Hot Again!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CoHENRY.Hot-Again-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wellbeing Advisor.app/Wellbeing Advisor";
+			};
+			name = Debug;
+		};
+		F803AEE4226DCF7A00C1D0C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FPKSQ4S8M9;
+				INFOPLIST_FILE = "Hot Again!Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "CoHENRY.Hot-Again-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wellbeing Advisor.app/Wellbeing Advisor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C30E95720F2B9B100D846E7 /* Build configuration list for PBXProject "Wellbeing Advisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C30E96C20F2B9B100D846E7 /* Debug */,
+				4C30E96D20F2B9B100D846E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C30E96E20F2B9B100D846E7 /* Build configuration list for PBXNativeTarget "Wellbeing Advisor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C30E96F20F2B9B100D846E7 /* Debug */,
+				4C30E97020F2B9B100D846E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F803AED4226DCF6D00C1D0C7 /* Build configuration list for PBXNativeTarget "Wellbeing AdvisorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F803AED5226DCF6D00C1D0C7 /* Debug */,
+				F803AED6226DCF6D00C1D0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F803AEE2226DCF7A00C1D0C7 /* Build configuration list for PBXNativeTarget "Wellbeing AdvisorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F803AEE3226DCF7A00C1D0C7 /* Debug */,
+				F803AEE4226DCF7A00C1D0C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F803AEAD226DCD3200C1D0C7 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F803AEAE226DCD3200C1D0C7 /* Model.xcdatamodel */,
+			);
+			currentVersion = F803AEAE226DCD3200C1D0C7 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C30E95420F2B9B100D846E7 /* Project object */;
+}
