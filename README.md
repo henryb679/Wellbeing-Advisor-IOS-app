@@ -1,7 +1,6 @@
 # Wellbeing Adviser
 
-
-This application will be built natively in IOS initially following some tutorials online as a framework then build it into a fully functional application at the end.
+The wellbeing adviser will be built natively in IOS using Xcode by following some tutorial online. This allows me to learn first hand from developers on the correct way to develop the app. The hope is that I become more proficient in coding in swift/objective c. 
 
 
 ## Purpose
@@ -13,7 +12,7 @@ Another plus of this is it gives me the ability to develop my first native IOS a
 * Feature sets to implement
 
   * Bluetooth connectivity from the wearable device to the app.
-  * Populate data from sensors in a graph like structure.
+  * Populate data from sensors in a graph-like structure.
   * Push information from sensors to the cloud.
   * Responsive design to work with different iPhone screen sizes.
   * Other features will be added to the list as required.
