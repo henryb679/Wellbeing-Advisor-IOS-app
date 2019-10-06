@@ -1,6 +1,8 @@
 # Wellbeing Advisor
 
-The wellbeing advisor will be built natively in IOS using Xcode by following some tutorial online. This allows me to learn first hand from developers on the correct way to develop the app. The hope is that I become more proficient in coding in swift/objective c. 
+<img src="appHomePage.png" height=500>
+
+The wellbeing advisor will be built natively in IOS using Xcode by following some tutorial online. This allows me to learn first hand from developers on the correct way to develop the app. The hope is that I become more proficient in coding in swift/objective c.
 
 
 ## Purpose
